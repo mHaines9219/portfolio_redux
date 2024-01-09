@@ -75,6 +75,7 @@ body {
   background: unset;
   border: 2px solid #00ff00;
   cursor: url('../../assets/cursor.png'), auto !important;
+  padding: 0 !important;
 
   &.left {
     transform: translateX(-100%) translatey(-55%);

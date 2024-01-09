@@ -49,7 +49,7 @@ export default function Home() {
   ];
 
   function ContactButton() {
-    window.location = 'mailto:mhaines9219@gmail.com';
+    window.location = 'mailto:mhaines9219@gmail.com?subject=Website%20Inquiry';
   }
 
   return (
@@ -103,10 +103,7 @@ export default function Home() {
           </div>
           <div className="colz">
             <div className="profile-buttons">
-              <a
-                href="resume_MatthewHaines.pdf"
-                download="resume_MatthewHaines.pdf"
-              >
+              <a href="MH_Resume.pdf" download="MH_Resume.pdf">
                 <button className="bot-btn">Get My Resume</button>
               </a>
               <button className="bot-btn" onClick={ContactButton}>

@@ -15,11 +15,16 @@ export default function Card({
         <h6 className="card-content">{techStack}</h6>
         <p className="card-desc">{description}</p>
         <div className="card-link-container">
-          <a href={link} className="card-link">
+          <a href={link} className="card-link" target="_blank" rel="noreferrer">
             DEPLOYMENT
           </a>
 
-          <a href={repoLink} className="card-link">
+          <a
+            href={repoLink}
+            className="card-link"
+            target="_blank"
+            rel="noreferrer"
+          >
             REPO
           </a>
         </div>
