@@ -59,25 +59,35 @@ body {
 }
 
 .nav {
-  color: green;
+  color: #00ff00;
   font-size: 5rem;
   position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
-  top: 50%;
+  text-align: center;
+  top: 40%;
   z-index: 2;
-  cursor: pointer;
   user-select: none;
   background: unset;
-  border: unset;
+  border: 2px solid #00ff00;
+  cursor: url('../../assets/cursor.png'), auto !important;
 
   &.left {
-    transform: translateX(-100%) translatey(-50%);
+    transform: translateX(-100%) translatey(-55%);
   }
 
   &.right {
     right: 0;
-    transform: translateX(100%) translatey(-50%);
+    transform: translateX(100%) translatey(-55%);
+  }
+  &:active {
+    border: none !important;
+  }
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    outline: none;
   }
 }

@@ -62,17 +62,17 @@ export default function Home() {
               ))}
             </Carousel>
           </div>
-          <div className="profile-buttons">
-            <a
-              href="resume_MatthewHaines.pdf"
-              download="resume_MatthewHaines.pdf"
-            >
-              <button>Get My Resume</button>
-            </a>
-            <button>Contact Me</button>
+          <div className="colz">
+            <div className="profile-buttons">
+              <a
+                href="resume_MatthewHaines.pdf"
+                download="resume_MatthewHaines.pdf"
+              >
+                <button className="bot-btn">Get My Resume</button>
+              </a>
+              <button className="bot-btn">Contact Me</button>
+            </div>
           </div>
-        </div>
-        <div className="colz">
           <div className="colz-icon">
             <a href="https://www.instagram.com/hattymaines/">
               <i className="fa fa-instagram"></i>

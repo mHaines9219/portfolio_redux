@@ -17,3 +17,7 @@ code {
 html {
   background-color: black;
 }
+
+* {
+  cursor: url('./assets/cursor.png'), auto;
+}

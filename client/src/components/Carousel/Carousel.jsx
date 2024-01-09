@@ -17,7 +17,7 @@ export default function Carousel({ children }) {
       <div className="carousel">
         {active > 0 && (
           <button className="nav left" onClick={() => setActive((i) => i - 1)}>
-            <TiChevronLeftOutline />
+            &lt;
           </button>
         )}
         {React.Children.map(children, (child, i) => (
@@ -38,7 +38,7 @@ export default function Carousel({ children }) {
         ))}
         {active < count - 1 && (
           <button className="nav right" onClick={() => setActive((i) => i + 1)}>
-            <TiChevronRightOutline />
+            &gt;
           </button>
         )}
       </div>
