@@ -17,13 +17,16 @@ export default function Home() {
       description:
         'A simple browser game built with HTML Canvas, CSS, and JS, custom SFX and music.',
       link: 'https://mhaines9219.github.io/TommyTheTurtle/',
+      repoLink: 'https://github.com/mHaines9219/TommyTheTurtle',
     },
     {
       id: 2,
       techStack: 'MERN Stack',
       title: 'SpaceBook',
       description:
-        'A dummy social media platform for space enthusiasts to demonstrate MERN Stack proficiency, utilized NASA APOD API as well as image upload.',
+        'A dummy social media platform for space enthusiasts to demonstrate MERN Stack proficiency, utilized NASA APOD API as well as image upload. Use guest@guest password: guest to login.',
+      link: 'https://space-book-5ba0b58adc3c.herokuapp.com/',
+      repoLink: 'https://github.com/mHaines9219/spaceBook-P3',
     },
     {
       id: 3,
@@ -31,6 +34,8 @@ export default function Home() {
       title: 'Shelter Helper',
       description:
         'A full stack app to help animal shelters manage their pets, used Google oAuth technology and Multer for image uploads.',
+      link: '',
+      repoLink: 'https://github.com/mHaines9219/ShelterHelper',
     },
     {
       id: 4,
@@ -38,8 +43,14 @@ export default function Home() {
       title: 'The The Counter',
       description:
         'A web scraper that produces the count of the word "the" on a given webpage, built with Python and BeautifulSoup4, React frontend.',
+      link: '',
+      repoLink: 'https://github.com/mHaines9219/the_counter',
     },
   ];
+
+  function ContactButton() {
+    window.location = 'mailto:mhaines9219@gmail.com';
+  }
 
   return (
     <div className="profile-container">
@@ -85,6 +96,7 @@ export default function Home() {
                   techStack={project.techStack}
                   description={project.description}
                   link={project.link}
+                  repoLink={project.repoLink}
                 />
               ))}
             </Carousel>
@@ -97,7 +109,9 @@ export default function Home() {
               >
                 <button className="bot-btn">Get My Resume</button>
               </a>
-              <button className="bot-btn">Contact Me</button>
+              <button className="bot-btn" onClick={ContactButton}>
+                Contact Me
+              </button>
             </div>
           </div>
           <div className="colz-icon">
