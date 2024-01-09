@@ -1,0 +1,18 @@
+.card-desc {
+  color: #00ff00;
+  margin-top: 60px;
+}
+
+.card-link {
+  margin-top: auto;
+  border: 2px solid #00ff00;
+
+  &:hover {
+    background-color: #00ff00;
+    color: black;
+  }
+}
+
+a {
+  color: #00ff00;
+}

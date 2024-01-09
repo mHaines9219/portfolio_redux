@@ -10,10 +10,35 @@ export default function Home() {
   const MAX_VISIBILITY = 3;
 
   const projects = [
-    { id: 1, subtitle: 'Subtitle 1', title: 'Tommy The Turtle' },
-    { id: 2, subtitle: 'Subtitle 2', title: 'SpaceBook' },
-    { id: 3, subtitle: 'Subtitle 3', title: 'Shelter Helper' },
-    { id: 4, subtitle: 'Subtitle 4', title: 'The The Counter' },
+    {
+      id: 1,
+      techStack: 'HTML Canvas, CSS, JS',
+      title: 'Tommy The Turtle',
+      description:
+        'A simple browser game built with HTML Canvas, CSS, and JS, custom SFX and music.',
+      link: 'https://mhaines9219.github.io/TommyTheTurtle/',
+    },
+    {
+      id: 2,
+      techStack: 'MERN Stack',
+      title: 'SpaceBook',
+      description:
+        'A dummy social media platform for space enthusiasts to demonstrate MERN Stack proficiency, utilized NASA APOD API as well as image upload.',
+    },
+    {
+      id: 3,
+      techStack: 'Express, MongoDB, Passport.js',
+      title: 'Shelter Helper',
+      description:
+        'A full stack app to help animal shelters manage their pets, used Google oAuth technology and Multer for image uploads.',
+    },
+    {
+      id: 4,
+      techStack: 'Python, BeautifulSoup4, React',
+      title: 'The The Counter',
+      description:
+        'A web scraper that produces the count of the word "the" on a given webpage, built with Python and BeautifulSoup4, React frontend.',
+    },
   ];
 
   return (
@@ -57,7 +82,9 @@ export default function Home() {
                 <Card
                   key={project.id}
                   title={project.title}
-                  content={project.subtitle}
+                  techStack={project.techStack}
+                  description={project.description}
+                  link={project.link}
                 />
               ))}
             </Carousel>

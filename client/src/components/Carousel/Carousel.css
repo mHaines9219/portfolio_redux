@@ -31,7 +31,7 @@ body {
   transition: all 0.3s ease-out;
 }
 .card-content {
-  color: black;
+  color: #00ff00;
 }
 .card {
   width: 100%;
@@ -43,6 +43,9 @@ body {
   border-radius: 1rem;
   text-align: justify;
   transition: all 0.3s ease-out;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 
   h2 {
     text-align: center;
