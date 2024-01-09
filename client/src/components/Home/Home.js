@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
 import Typical from 'react-typical';
 import './Home.css';
-import { motion, AnimatePresence } from 'framer-motion';
 
+import Card from '../Card/Card';
+import Carousel from '../Carousel/Carousel';
 export default function Home() {
   const [selectedId, setSelectedId] = useState(null);
+  const CARDS = 10;
+  const MAX_VISIBILITY = 3;
 
   const projects = [
     { id: 1, subtitle: 'Subtitle 1', title: 'Tommy The Turtle' },
@@ -54,11 +57,21 @@ export default function Home() {
             >
               <button>Get My Resume</button>
             </a>
-            <button>Projects</button>
             <button>Contact Me</button>
           </div>
         </div>
-        <div className="profile-picture">img</div>
+        <h3 className="projects-header">CURRENT PROJECTS</h3>
+        <div className="project-cards">
+          <Carousel>
+            {projects.map((project) => (
+              <Card
+                key={project.id}
+                title={project.title}
+                content={project.subtitle}
+              />
+            ))}
+          </Carousel>
+        </div>
         <div className="colz">
           <div className="colz-icon">
             <a href="https://www.instagram.com/hattymaines/">
@@ -72,34 +85,6 @@ export default function Home() {
             </a>
           </div>
         </div>
-      </div>
-      <div className="project-cards">
-        {projects.map((project) => (
-          <motion.div
-            className="project-card-individual"
-            layoutId={project.id}
-            onClick={() => setSelectedId(project.id)}
-          >
-            <motion.h5>{project.subtitle}</motion.h5>
-            <motion.h2>{project.title}</motion.h2>
-          </motion.div>
-        ))}
-        <AnimatePresence>
-          {selectedId && (
-            <motion.div layoutId={selectedId}>
-              {/* Find the project by selectedId */}
-              {projects
-                .filter((proj) => proj.id === selectedId)
-                .map((filteredProject) => (
-                  <React.Fragment key={filteredProject.id}>
-                    <motion.h5>{filteredProject.subtitle}</motion.h5>
-                    <motion.h2>{filteredProject.title}</motion.h2>
-                  </React.Fragment>
-                ))}
-              <motion.button onClick={() => setSelectedId(null)} />
-            </motion.div>
-          )}
-        </AnimatePresence>
       </div>
     </div>
   );
