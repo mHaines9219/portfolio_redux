@@ -50,6 +50,18 @@ export default function Home() {
             </span>
           </div>
 
+          <h3 className="projects-header">CURRENT PROJECTS</h3>
+          <div className="project-cards">
+            <Carousel>
+              {projects.map((project) => (
+                <Card
+                  key={project.id}
+                  title={project.title}
+                  content={project.subtitle}
+                />
+              ))}
+            </Carousel>
+          </div>
           <div className="profile-buttons">
             <a
               href="resume_MatthewHaines.pdf"
@@ -59,18 +71,6 @@ export default function Home() {
             </a>
             <button>Contact Me</button>
           </div>
-        </div>
-        <h3 className="projects-header">CURRENT PROJECTS</h3>
-        <div className="project-cards">
-          <Carousel>
-            {projects.map((project) => (
-              <Card
-                key={project.id}
-                title={project.title}
-                content={project.subtitle}
-              />
-            ))}
-          </Carousel>
         </div>
         <div className="colz">
           <div className="colz-icon">

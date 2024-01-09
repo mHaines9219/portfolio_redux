@@ -42,7 +42,6 @@ export default function Carousel({ children }) {
           </button>
         )}
       </div>
-      );
     </div>
   );
 }
