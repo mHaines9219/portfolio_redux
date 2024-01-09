@@ -63,7 +63,7 @@ body {
 
 .nav {
   color: #00ff00;
-  font-size: 5rem;
+  font-size: 4rem;
   position: absolute;
   display: flex;
   align-items: center;
@@ -75,15 +75,20 @@ body {
   background: unset;
   border: 2px solid #00ff00;
   cursor: url('../../assets/cursor.png'), auto !important;
-  padding: 0 !important;
 
   &.left {
     transform: translateX(-100%) translatey(-55%);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 2px 0 0 6px;
   }
 
   &.right {
     right: 0;
     transform: translateX(100%) translatey(-55%);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 2px 0 0 6px;
   }
   &:active {
     border: none !important;
