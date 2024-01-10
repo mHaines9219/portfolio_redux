@@ -34,7 +34,7 @@ export default function Home() {
       title: 'Shelter Helper',
       description:
         'A full stack app to help animal shelters manage their pets, used Google oAuth technology and Multer for image uploads.',
-      link: '',
+      link: 'https://shelter-helper-e804b88bbe4a.herokuapp.com/',
       repoLink: 'https://github.com/mHaines9219/ShelterHelper',
     },
     {
