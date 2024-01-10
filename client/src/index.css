@@ -21,6 +21,6 @@ html {
 * {
   cursor: url('./assets/cursor.png'), auto;
 }
-button {
+a {
   cursor: url('./assets/cursor.png'), auto;
 }
