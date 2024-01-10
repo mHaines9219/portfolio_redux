@@ -1,8 +1,5 @@
 import React, { useState } from 'react';
-import {
-  TiChevronLeftOutline,
-  TiChevronRightOutline,
-} from 'https://cdn.skypack.dev/react-icons/ti';
+
 import './Carousel.css';
 
 export default function Carousel({ children }) {

@@ -39,12 +39,21 @@ export default function Home() {
     },
     {
       id: 4,
-      techStack: 'Python, BeautifulSoup4, React',
+      techStack: 'Python, Flask, BeautifulSoup4, React',
       title: 'The The Counter',
       description:
         'A web scraper that produces the count of the word "the" on a given webpage, built with Python and BeautifulSoup4, React frontend.',
       link: '',
       repoLink: 'https://github.com/mHaines9219/the_counter',
+    },
+    {
+      id: 5,
+      techStack: 'ChatGPT',
+      title: 'Custom ChatGPT Models',
+      description:
+        'Created and Prompted multiple GPTs for public and personal use: CodeMonkey, StudioBuddy, and ResumeBuilder',
+      link: '',
+      repoLink: '',
     },
   ];
 
