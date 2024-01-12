@@ -36,7 +36,7 @@ export default function Home() {
       techStack: 'Express, MongoDB, Passport.js',
       title: 'Shelter Helper',
       description:
-        'A full stack app to help animal shelters manage their pets, used Google oAuth technology and Multer for image uploads.',
+        'A full stack app to help animal shelters manage their pets, used Google oAuth technology',
       link: 'https://shelter-helper-e804b88bbe4a.herokuapp.com/',
       repoLink: 'https://github.com/mHaines9219/ShelterHelper',
     },
