@@ -6,6 +6,7 @@ import Icons from '../Icons/Icons';
 import Card from '../Card/Card';
 import Carousel from '../Carousel/Carousel';
 import ProfileButtons from '../ProfileButtons/ProfileButtons';
+import Typewriter from '../Typewriter/Typewriter';
 export default function Home() {
   const [selectedId, setSelectedId] = useState(null);
   const CARDS = 10;
@@ -59,7 +60,6 @@ export default function Home() {
     },
   ];
 
-
   return (
     <div className="profile-container">
       <div className="profile-parent">
@@ -72,24 +72,7 @@ export default function Home() {
           </div>
           <div className="profile-details-role">
             <span className="primary-text">
-              <h2 className="typewriter">
-                {''}
-                <Typical
-                  loop={1}
-                  steps={[
-                    'Creative Professional',
-                    800,
-                    'React Developer',
-                    800,
-                    'Python Developer',
-                    800,
-                    'Bird Enthusiast',
-                    800,
-                    'Full Stack Web Developer',
-                    800,
-                  ]}
-                />
-              </h2>
+              <Typewriter />
               <span className="profile-bio"></span>
             </span>
           </div>
