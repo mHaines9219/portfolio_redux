@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Typical from 'react-typical';
 import './Home.css';
+import Icons from '../Icons/Icons';
 
 import Card from '../Card/Card';
 import Carousel from '../Carousel/Carousel';
@@ -120,17 +121,7 @@ export default function Home() {
               </button>
             </div>
           </div>
-          <div className="colz-icon">
-            <a href="https://www.instagram.com/hattymaines/">
-              <i className="fa fa-instagram"></i>
-            </a>
-            <a href="https://github.com/mHaines9219">
-              <i className="fa fa-github"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/mhaines9219/">
-              <i className="fa fa-linkedin"></i>
-            </a>
-          </div>
+          <Icons />
         </div>
       </div>
     </div>
