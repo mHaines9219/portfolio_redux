@@ -5,6 +5,7 @@ import Icons from '../Icons/Icons';
 
 import Card from '../Card/Card';
 import Carousel from '../Carousel/Carousel';
+import ProfileButtons from '../ProfileButtons/ProfileButtons';
 export default function Home() {
   const [selectedId, setSelectedId] = useState(null);
   const CARDS = 10;
@@ -58,9 +59,6 @@ export default function Home() {
     },
   ];
 
-  function ContactButton() {
-    window.location = 'mailto:mhaines9219@gmail.com?subject=Website%20Inquiry';
-  }
 
   return (
     <div className="profile-container">
@@ -111,16 +109,7 @@ export default function Home() {
               ))}
             </Carousel>
           </div>
-          <div className="colz">
-            <div className="profile-buttons">
-              <a href="MH_Resume.pdf" download="MH_Resume.pdf">
-                <button className="bot-btn">Get My Resume</button>
-              </a>
-              <button className="bot-btn" onClick={ContactButton}>
-                Contact Me
-              </button>
-            </div>
-          </div>
+          <ProfileButtons />
           <Icons />
         </div>
       </div>
