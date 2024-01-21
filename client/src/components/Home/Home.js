@@ -51,6 +51,15 @@ export default function Home() {
     },
     {
       id: 5,
+      techStack: 'Django, Python, React',
+      title: 'Kingbird Audio Storefront',
+      description:
+        'A storefront to sell digital goods (presets and templates) for use in home recording. Products available for all major DAWs, dummy site.',
+      link: '',
+      repoLink: 'https://github.com/mHaines9219/kingbirdaudio-store',
+    },
+    {
+      id: 6,
       techStack: 'ChatGPT',
       title: 'Custom ChatGPT Models',
       description:

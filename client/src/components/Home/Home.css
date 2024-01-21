@@ -108,3 +108,11 @@ p {
   margin: 30px;
   padding: 30px;
 }
+
+@media only screen and (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 190px;
+    box-sizing: border-box;
+  }
+}
