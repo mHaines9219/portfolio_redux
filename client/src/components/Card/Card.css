@@ -23,3 +23,31 @@ a {
   align-content: center;
   margin-top: auto;
 }
+
+@media only screen and (max-width: 600px) {
+  .card-desc {
+    color: #00ff00;
+    margin-top: 40px;
+  }
+
+  .card-link {
+    margin-top: auto;
+    border: 2px solid #00ff00;
+    padding: 10px;
+
+    &:hover {
+      background-color: #00ff00;
+      color: black;
+    }
+  }
+
+  a {
+    color: #00ff00;
+  }
+  .card-link-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: auto;
+  }
+}
