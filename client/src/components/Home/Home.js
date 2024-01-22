@@ -63,7 +63,7 @@ export default function Home() {
       techStack: 'ChatGPT',
       title: 'Custom ChatGPT Models',
       description:
-        'Created and Prompted multiple GPTs for public and personal use: CodeMonkey, StudioBuddy, and ResumeBuilder',
+        'Created and Prompted multiple GPTs for public and personal use: CodeMonkey, BetBetter, StudioBuddy, and ResumeBuilder',
       link: '',
       repoLink: '',
     },
