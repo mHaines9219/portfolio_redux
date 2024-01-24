@@ -1,14 +1,15 @@
 body {
-  width: 100vw;
-  height: 100vh;
+  /* width: 100vw;
+  height: 100vh; */
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0px;
 }
 
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 
 .carousel {
   width: 600px;
@@ -100,11 +101,74 @@ body {
   }
 }
 
-@media only screen and (max-width: 393px) {
+@media only screen and (max-width: 500px) {
   .carousel {
-    width: 400px;
+    width: 70vw;
     height: 500px;
     perspective: 500px;
     transform-style: preserve-3d;
+  }
+
+  .card-container {
+    position: absolute;
+    width: 90vw;
+  }
+  .card-content {
+    color: #00ff00;
+  }
+  .card {
+    width: 70vw;
+    height: 45vh;
+    padding: 2rem;
+    margin-top: 30px;
+    background-color: black;
+    border: 2px solid #00ff00;
+    border-radius: 1rem;
+    text-align: justify;
+    transition: all 0.3s ease-out;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .nav {
+    color: #00ff00;
+    font-size: 3rem;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 40%;
+    z-index: 2;
+    user-select: none;
+    background: unset;
+    border: 2px solid #00ff00;
+    cursor: url('../../assets/cursor.png'), auto !important;
+
+    &.left {
+      transform: translateX(-100%) translatey(-55%);
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+      padding: 2px 0 0 6px;
+    }
+
+    &.right {
+      right: 0;
+      transform: translateX(100%) translatey(-55%);
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+      padding: 2px 0 0 6px;
+    }
+    &:active {
+      border: none !important;
+    }
+    &:focus {
+      outline: none;
+    }
+    &:hover {
+      outline: none;
+      background-color: #00ff00;
+      color: black;
+    }
   }
 }
