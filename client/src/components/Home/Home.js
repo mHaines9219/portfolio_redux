@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import Typical from 'react-typical';
+import React from 'react';
 import './Home.css';
 import Icons from '../Icons/Icons';
 
@@ -8,10 +7,6 @@ import Carousel from '../Carousel/Carousel';
 import ProfileButtons from '../ProfileButtons/ProfileButtons';
 import Typewriter from '../Typewriter/Typewriter';
 export default function Home() {
-  const [selectedId, setSelectedId] = useState(null);
-  const CARDS = 10;
-  const MAX_VISIBILITY = 3;
-
   const projects = [
     {
       id: 1,
