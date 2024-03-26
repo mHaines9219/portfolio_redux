@@ -41,7 +41,7 @@ export default function Home() {
       title: 'The The Counter',
       description:
         'A web scraper that produces the count of the word "the" on a given webpage, built with Python and BeautifulSoup4, React frontend.',
-      link: '',
+      link: 'https://polar-sea-72538-31ead2a103d4.herokuapp.com/',
       repoLink: 'https://github.com/mHaines9219/the_counter',
     },
     {
