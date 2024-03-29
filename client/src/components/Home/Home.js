@@ -38,9 +38,9 @@ export default function Home() {
     {
       id: 4,
       techStack: 'Python, Flask, BeautifulSoup4, React',
-      title: 'The The Counter',
+      title: 'The Word Counter',
       description:
-        'A web scraper that produces the count of the word "the" on a given webpage, built with Python and BeautifulSoup4, React frontend.',
+        'A web scraper that produces the count of a user-inputted word on a given webpage, built with Python and BeautifulSoup4, React frontend.',
       link: 'https://polar-sea-72538-31ead2a103d4.herokuapp.com/',
       repoLink: 'https://github.com/mHaines9219/the_counter',
     },
