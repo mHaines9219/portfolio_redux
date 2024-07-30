@@ -10,12 +10,11 @@ export default function Home() {
   const projects = [
     {
       id: 1,
-      techStack: 'HTML Canvas, CSS, JS',
-      title: 'Tommy The Turtle',
+      techStack: 'Next.JS, React, Typescript',
+      title: 'AtlasAgent AI Website',
       description:
-        'A simple browser game built with HTML Canvas, CSS, and JS, custom SFX and music.',
-      link: 'https://mhaines9219.github.io/TommyTheTurtle/',
-      repoLink: 'https://github.com/mHaines9219/TommyTheTurtle',
+        'Built several frontend and backend components for a website that uses AI to help real estate agents generate leads and manage their business.',
+      link: 'https://atlasagent.ai/',
     },
     {
       id: 2,
@@ -28,12 +27,11 @@ export default function Home() {
     },
     {
       id: 3,
-      techStack: 'Express, MongoDB, Passport.js',
-      title: 'Shelter Helper',
+      techStack: 'Next.JS, React, Typescript',
+      title: 'Sparkling Pools of Texas Website',
       description:
-        'A full stack app to help animal shelters manage their pets, used Google oAuth technology',
-      link: 'https://shelter-helper-e804b88bbe4a.herokuapp.com/',
-      repoLink: 'https://github.com/mHaines9219/ShelterHelper',
+        'Lead the effort to build a website for a local pool cleaning business, utilized Next.JS for SEO and performance benefits.',
+      link: 'https://www.sparklingpoolstx.com/',
     },
     {
       id: 4,
