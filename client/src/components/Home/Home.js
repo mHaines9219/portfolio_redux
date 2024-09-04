@@ -44,8 +44,9 @@ export default function Home() {
     },
     {
       id: 5,
-      techStack: 'Django, Python, React',
-      title: 'Kingbird Audio Storefront',
+      techStack:
+        'Python, Selenium, BeautifulSoup4, Streamlit, langChain, Bright Data, Chromium Remote Connection',
+      title: 'AI Web Scraper',
       description:
         'A storefront to sell digital goods (presets and templates) for use in home recording. Products available for all major DAWs, dummy site.',
       link: '',
