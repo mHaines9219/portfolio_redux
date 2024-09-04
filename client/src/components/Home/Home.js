@@ -41,7 +41,7 @@ export default function Home() {
         'Python, Selenium, BeautifulSoup4, Streamlit, langChain, Bright Data, Chromium Remote Connection',
       title: 'AI Web Scraper',
       description:
-        'The AI Web Scraper is a tool that automates data extraction from web pages, including those with CAPTCHAs, using Python, Selenium, and Bright Data. With a Streamlit interface for customizable scraping and llama3 for precise data parsing, it efficiently handles large volumes of content, showcasing my expertise in web automation and dynamic application development.',
+        'The AI Web Scraper automates data extraction from web pages using Python, Selenium, and Bright Data, handling CAPTCHAs and complex content while providing a user-friendly interface for precise data parsing.',
       link: '',
       repoLink: 'https://github.com/mHaines9219/ai-webscraper',
     },
