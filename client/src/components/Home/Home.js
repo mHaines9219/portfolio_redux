@@ -9,7 +9,7 @@ import Typewriter from '../Typewriter/Typewriter';
 export default function Home() {
   const projects = [
     {
-      id: 1
+      id: 1,
       techStack: 'MERN Stack',
       title: 'SpaceBook',
       description:
