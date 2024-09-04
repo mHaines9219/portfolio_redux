@@ -9,15 +9,7 @@ import Typewriter from '../Typewriter/Typewriter';
 export default function Home() {
   const projects = [
     {
-      id: 1,
-      techStack: 'Next.JS, React, Typescript',
-      title: 'AtlasAgent AI Website',
-      description:
-        'Built several frontend and backend components for a website that uses AI to help real estate agents generate leads and manage their business.',
-      link: 'https://atlasagent.ai/',
-    },
-    {
-      id: 2,
+      id: 1
       techStack: 'MERN Stack',
       title: 'SpaceBook',
       description:
@@ -26,6 +18,15 @@ export default function Home() {
       repoLink: 'https://github.com/mHaines9219/spaceBook-P3',
     },
     {
+      id: 2,
+      techStack: 'Next.JS, React, Typescript',
+      title: 'AtlasAgent AI Website',
+      description:
+        'Built several frontend and backend components for a website that uses AI to help real estate agents generate leads and manage their business.',
+      link: 'https://atlasagent.ai/',
+    },
+
+    {
       id: 3,
       techStack: 'Next.JS, React, Typescript',
       title: 'Sparkling Pools of Texas Website',
@@ -33,24 +34,25 @@ export default function Home() {
         'Lead the effort to build a website for a local pool cleaning business, utilized Next.JS for SEO and performance benefits.',
       link: 'https://www.sparklingpoolstx.com/',
     },
+
     {
       id: 4,
+      techStack:
+        'Python, Selenium, BeautifulSoup4, Streamlit, langChain, Bright Data, Chromium Remote Connection',
+      title: 'AI Web Scraper',
+      description:
+        'The AI Web Scraper is a tool that automates data extraction from web pages, including those with CAPTCHAs, using Python, Selenium, and Bright Data. With a Streamlit interface for customizable scraping and llama3 for precise data parsing, it efficiently handles large volumes of content, showcasing my expertise in web automation and dynamic application development.',
+      link: '',
+      repoLink: 'https://github.com/mHaines9219/ai-webscraper',
+    },
+    {
+      id: 5,
       techStack: 'Python, Flask, BeautifulSoup4, React',
       title: 'The Word Counter',
       description:
         'A web scraper that produces the count of a user-inputted word on a given webpage, built with Python and BeautifulSoup4, React frontend.',
       link: 'https://polar-sea-72538-31ead2a103d4.herokuapp.com/',
       repoLink: 'https://github.com/mHaines9219/the_counter',
-    },
-    {
-      id: 5,
-      techStack:
-        'Python, Selenium, BeautifulSoup4, Streamlit, langChain, Bright Data, Chromium Remote Connection',
-      title: 'AI Web Scraper',
-      description:
-        'A storefront to sell digital goods (presets and templates) for use in home recording. Products available for all major DAWs, dummy site.',
-      link: '',
-      repoLink: 'https://github.com/mHaines9219/kingbirdaudio-store',
     },
     {
       id: 6,
