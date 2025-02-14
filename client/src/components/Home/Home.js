@@ -10,20 +10,18 @@ export default function Home() {
   const projects = [
     {
       id: 1,
-      techStack: 'MERN Stack',
-      title: 'SpaceBook',
+      techStack: 'Rust, Solidity Blockchain, Typescript, React, Postgresql',
+      title: 'Stealth Project',
       description:
-        'A dummy social media platform for space enthusiasts to demonstrate MERN Stack proficiency, utilized NASA APOD API as well as image upload. Use guest@guest password: guest to login.',
-      link: 'https://space-book-5ba0b58adc3c.herokuapp.com/',
-      repoLink: 'https://github.com/mHaines9219/spaceBook-P3',
+        'Contributed to  a full-stack Solidity-based coin creation and trading platform, integrating React hooks for smart contract interactions, a Rust backend with Axum and PostgreSQL, and an optimized user experience with AWS S3 for asset uploads.',
     },
     {
       id: 2,
       techStack: 'Next.JS, React, Typescript',
-      title: 'AtlasAgent AI Website',
+      title: 'Drip Dome Productions Website',
       description:
-        'Built several frontend and backend components for a website that uses AI to help real estate agents generate leads and manage their business.',
-      link: 'https://atlasagent.ai/',
+        'Developed a dynamic website for production company  using Next.js, TypeScript, and React, integrating Framer Motion for smooth animations and Swiper carousels for engaging content. Implemented a custom email solution with Twilio SendGrid to streamline communications.',
+      link: 'https://www.dripdome.com',
     },
 
     {
