@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import './Carousel.css';
 
 export default function Carousel({ children }) {
-  const [active, setActive] = useState(2);
+  const [active, setActive] = useState(1);
   const count = React.Children.count(children);
 
   const CARDS = 10;

@@ -20,7 +20,7 @@ export default function Home() {
       techStack: 'Next.JS, React, Typescript',
       title: 'Drip Dome Productions Website',
       description:
-        'Developed a dynamic website for production company  using Next.js, TypeScript, and React, integrating Framer Motion for smooth animations and Swiper carousels for engaging content. Implemented a custom email solution with Twilio SendGrid to streamline communications.',
+        'Designed and developed website for production company using Next.js and TypeScript integrating Framer Motion for animations and Swiper carousels for engaging content. Implemented a custom email solution with Twilio SendGrid.',
       link: 'https://www.dripdome.com',
     },
 
@@ -39,7 +39,7 @@ export default function Home() {
         'Python, Selenium, BeautifulSoup4, Streamlit, langChain, Bright Data, Chromium Remote Connection',
       title: 'AI Web Scraper',
       description:
-        'The AI Web Scraper automates data extraction from web pages using Python, Selenium, and Bright Data, handling CAPTCHAs and providing a user-friendly interface for precise data parsing.',
+        'The AI Web Scraper automates data extraction from web pages using Python, Selenium, and Bright Data, handling CAPTCHAs and providing an interface for data parsing.',
       link: '',
       repoLink: 'https://github.com/mHaines9219/ai-webscraper',
     },
