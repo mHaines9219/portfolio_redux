@@ -18,7 +18,7 @@ export default function Home() {
     {
       id: 2,
       techStack: 'Next.JS, React, Typescript',
-      title: 'Drip Dome Productions Website',
+      title: 'Drip Dome Website',
       description:
         'Designed and developed website for production company using Next.js and TypeScript integrating Framer Motion for animations and Swiper carousels for engaging content. Implemented a custom email solution with Twilio SendGrid.',
       link: 'https://www.dripdome.com',
